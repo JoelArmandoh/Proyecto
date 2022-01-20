@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    background:white;
+}
+
+header{
+    background:white;
+    /*overflow: hidden;*/
+    
+}
+
+nav{
+width: 100%;
+    background: turquoise;
+    background: transparent;
+    height: 100px;
+    
+    position: relative;
+    padding: 5px;
+    
+}
+header nav ul li{
+   
+    list-style: none;
+    float: left;
+    
+}
+
+header nav ul li a{
+
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color:white;
+}
+
+header nav ul li a:hover {
+
+    color:red;
+    
+}
+
+
+nav div img{
+    
+
+
+    width: 13% ;
+
+     height:auto;
+
+    position: absolute;
+    
+
+
+} 
+
+header nav ul{
+margin-top: 18px;
+
+
+}
+
+/*nav{
+
+    background: transparent;
+   
+}*/
+
+/*body{
+    background-image: url(../../Donaltrump/imagenes/donal.jpg);
+}*/
+
+.articulo1, .articulo2,.articulo3{
+
+    
+    width: 100%;
+    height: 500px;
+    
+  
+}
+
+.articulo1{
+
+    background: #da1333;
+    position: relative;
+    height: 300px;
+
+
+}
+
+.articulo3{
+
+background:#213875;
+
+}
+
+body{
+    max-width: 2000px;
+}
+
+.imagen{
+    margin: 0;
+    padding: 0;
+
+}
+.caja1{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: white;    
+    font-family: "Montserrat", sans-serif;
+}
+
+.input1{
+    border: 1px solid white;
+    padding: 10px;
+    outline: none;
+    background: #da1333;
+    color: white;
+}
+
+.input2{
+    border: 1px solid white;
+    padding: 10px;
+    outline: none;
+    background:#213875 ;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+button{
+
+    border: 1px solid black;
+
+}
+
+.texto1{
+    width: 40%;
+    margin: 0px auto;
+    padding-top: 15px;
+    font-family: "Montserrat", sans-serif; 
+    
+}
+
+.articulo3{
+    color:white;
+}
+
+.contenido2, .articulo2{
+
+    text-align: center;
+
+}
+
+
+.contenido2{
+
+    text-align: center;
+margin-top: 30px;
+color: #213875 ;
+font-family: "Montserrat", sans-serif;
+
+}
+
+.articulo2 h2{
+    
+    font-family: "Montserrat", sans-serif;
+    margin-top: 10px;
+    color:#213875 ;
+    
+}
+
+.articulo2{
+
+    position: relative;
+    justify-content: center;
+    
+
+}
+
+.caja2{
+    position: absolute;
+    width: 50%;
+    top: 25%;
+    left: 25%;    
+}
+
+header {
+    position: fixed !important;
+    width: 100%;
+    height: auto;
+    background: transparent;
+}
+
+
+
+
+header nav ul{
+
+    margin-left: 700px;
+
+
+}
+
+
+.click1 {
+
+    border: 1px solid white ;
+
+
+
+
+}
+
+.click2 {
+
+
+background: #da1333;
+margin-left: 2px;
+
+
+}
+
+.click2 a:hover {
+
+    border: 2px solid #213875;;
+    box-shadow: 1px #213875;;
+    color: white;
+
+}
+
+
+.click1 a:hover{
+
+    background: white;
+    color:#213875;
+
+
+}
